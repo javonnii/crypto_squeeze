@@ -114,7 +114,7 @@ for filename in os.listdir("datasets"): # list all files in directory
     
     df['squeeze_on'] = df.apply(in_squeeze, axis= 1)
     
-    if df.iloc[-3]['squeeze_on'] and not df.iloc[-1]['squeeze_on']:
+    if df.iloc[-2]['squeeze_on'] and not df.iloc[-1]['squeeze_on']:
         prev = float(df.iloc[-2]['20sma'])
         cur = float(df.iloc[-1]['20sma'])
         if prev <= cur:
