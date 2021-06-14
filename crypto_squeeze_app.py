@@ -11,7 +11,7 @@ import pandas_ta as ta
 
 
 st.title("Crypto's Top 25 Squeeze Scanner App - J.Curry ")
-
+st.text("Disclaimer: This app that I created on Streamlit shouldn't be taken as financial advice. I am not a licensed financial professional. Nothing on this app is meant to be a recommendation to buy or sell any stock, ETF, index, or cryptocurrency. Do your own research when it comes to investing and trading to take 100% responsibility for your financial decisions and future.")
 # st.subheader("By Javonnii Curry")
 # make the time interval variable a input variable for the app.
 # """
@@ -193,7 +193,6 @@ with st.spinner('wait for it...'):
 st.success("Done!")
 
 
-st.text("Disclaimer: This app that I created on Streamlit shouldn't be taken as financial advice. I am not a licensed financial professional. Nothing on this app is meant to be a recommendation to buy or sell any stock, ETF, index, or cryptocurrency. Do your own research when it comes to investing and trading to take 100% responsibility for your financial decisions and future.")
 
 # Give results on whether the cryptos are in a squeeze or coming out of a squeeze.
 
